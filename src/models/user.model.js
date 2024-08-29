@@ -33,7 +33,13 @@ const userSchema = new Schema({
     avatar: {
         type: String
     },
+    avatarPublicID: {
+        type: String
+    },
     coverImage: {
+        type: String
+    },
+    coverPublicID: {
         type: String
     },
     password: {
