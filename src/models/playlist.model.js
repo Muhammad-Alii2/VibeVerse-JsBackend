@@ -1,6 +1,6 @@
 import {Schema, model} from "mongoose";
 
-const playlistSchema = Schema({
+const playlistSchema = new Schema({
     name: {
         type: String,
         required: [true, "Name is required"]
